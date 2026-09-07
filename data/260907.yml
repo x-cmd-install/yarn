@@ -5,7 +5,7 @@ about:
   head: c2dda50
   archived: false
   latestVersion: "v1.22.22"
-  collectedAt: 2026-09-07T05:14:18Z
+  collectedAt: 2026-09-07T19:10:36Z
 timeline:
   created: 2016-01-19
   lastCommit: 2026-02-12
@@ -83,7 +83,7 @@ total:
   commit: 2358
 ---
 path: /home/runner/.x-repo/github.com/yarnpkg/yarn
-collectedAt: 2026-09-07T05:14:29Z
+collectedAt: 2026-09-07T19:10:43Z
 loc:
   JavaScript:
     code: 43172
@@ -241,7 +241,7 @@ checks:
       - 'Warn: 0 commits out of 6 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T05:14:33+00:00
+  collectedAt: 2026-09-07T19:10:46+00:00
   platform:
     darwin/arm64:
       name:  null
