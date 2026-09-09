@@ -7,7 +7,7 @@ about:
   latestVersion: "v1.22.22"
   latestRelease: "v1.22.22"
   latestPrerelease: "v1.20.0"
-  collectedAt: 2026-09-09T05:29:32Z
+  collectedAt: 2026-09-09T19:37:15Z
 timeline:
   created: 2016-01-19
   lastCommit: 2026-02-12
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2024-03-09
   lastPrerelease: 2019-12-01
 popularity:
-  star: 41483
+  star: 41482
   watcher: 538
   fork: 2712
   release: 153
@@ -87,7 +87,7 @@ total:
   commit: 2358
 ---
 path: /home/runner/.x-repo/github.com/yarnpkg/yarn
-collectedAt: 2026-09-09T05:29:39Z
+collectedAt: 2026-09-09T19:37:22Z
 loc:
   JavaScript:
     code: 43172
