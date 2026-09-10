@@ -11,6 +11,13 @@
     - hi@fabricio.dev
   licenses:
     - BSD-2-Clause
+- repo: pld
+  srcname: yarn
+  visiblename: yarn
+  version: 1.22.22
+  origversion: 1.22.22-1
+  status: outdated
+  vulnerable: true
 - repo: apertis_v2026
   subrepo: v2026/development
   srcname: node-yarnpkg
@@ -121,19 +128,6 @@
     - fallback-mnt-exherbo@repology
   categories:
     - dev-node
-- repo: nix_stable_25_05
-  srcname: yarn-berry_4
-  visiblename: yarn-berry
-  version: 4.9.1
-  origversion: null
-  status: outdated
-  summary: Fast, reliable, and secure dependency management
-  maintainers:
-    - ok@ryota-ka.me
-    - pyrox@pyrox.dev
-    - nix@dimitarnestorov.com
-  licenses:
-    - BSD-2-Clause
 - repo: kali_rolling
   subrepo: main
   srcname: node-yarnpkg
@@ -149,44 +143,6 @@
     - paolo.greppi@libpf.com
   categories:
     - misc
-- repo: nix_stable_25_05
-  srcname: yarn-berry_3
-  visiblename: yarn-berry
-  version: 3.8.7
-  origversion: null
-  status: legacy
-  summary: Fast, reliable, and secure dependency management
-  maintainers:
-    - ok@ryota-ka.me
-    - pyrox@pyrox.dev
-    - nix@dimitarnestorov.com
-  licenses:
-    - BSD-2-Clause
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: node-yarnpkg
-  binnames:
-    - yarnpkg
-  visiblename: node-yarnpkg
-  version: 4.1.0
-  origversion: 4.1.0+dfsg-1
-  status: outdated
-  maintainers:
-    - pkg-javascript-devel@lists.alioth.debian.org
-    - izzygaladima@gmail.com
-    - paolo.greppi@libpf.com
-  categories:
-    - misc
-- repo: kiss_community
-  subrepo: community
-  srcname: yarn
-  visiblename: yarn
-  version: 1.22.22
-  origversion: null
-  status: outdated
-  maintainers:
-    - prathamin@proton.me
-  vulnerable: true
 - repo: nix_stable_24_05
   srcname: yarn-berry
   visiblename: yarn-berry
@@ -219,6 +175,32 @@
   version: 4.9.1
   origversion: null
   status: outdated
+  summary: Fast, reliable, and secure dependency management
+  maintainers:
+    - ok@ryota-ka.me
+    - pyrox@pyrox.dev
+    - nix@dimitarnestorov.com
+  licenses:
+    - BSD-2-Clause
+- repo: nix_stable_25_05
+  srcname: yarn-berry_4
+  visiblename: yarn-berry
+  version: 4.9.1
+  origversion: null
+  status: outdated
+  summary: Fast, reliable, and secure dependency management
+  maintainers:
+    - ok@ryota-ka.me
+    - pyrox@pyrox.dev
+    - nix@dimitarnestorov.com
+  licenses:
+    - BSD-2-Clause
+- repo: nix_stable_25_05
+  srcname: yarn-berry_3
+  visiblename: yarn-berry
+  version: 3.8.7
+  origversion: null
+  status: legacy
   summary: Fast, reliable, and secure dependency management
   maintainers:
     - ok@ryota-ka.me
@@ -371,6 +353,21 @@
   categories:
     - Archiver
 - repo: parrot
+  subrepo: parrot-updates/main
+  srcname: node-yarnpkg
+  binnames:
+    - yarnpkg
+  visiblename: node-yarnpkg
+  version: 4.1.0
+  origversion: 4.1.0+dfsg-1
+  status: outdated
+  maintainers:
+    - pkg-javascript-devel@lists.alioth.debian.org
+    - izzygaladima@gmail.com
+    - paolo.greppi@libpf.com
+  categories:
+    - misc
+- repo: parrot
   subrepo: parrot/main
   srcname: node-yarnpkg
   binnames:
@@ -485,6 +482,16 @@
     - paolo.greppi@libpf.com
   categories:
     - universe/misc
+- repo: scoop
+  subrepo: main
+  binname: yarn
+  visiblename: yarn
+  version: 1.22.22
+  origversion: null
+  status: outdated
+  licenses:
+    - BSD-2-Clause
+  vulnerable: true
 - repo: ubuntu_26_10
   subrepo: stonking/universe
   srcname: node-yarnpkg
@@ -524,7 +531,7 @@
   status: newest
   summary: Fast, reliable, and secure dependency management - Active development trunk
   maintainers:
-    - fallback-mnt-vylen@repology
+    - wonkru-dev@proton.me
 - repo: wikidata
   srcname: Q28518314
   visiblename: Yarn
@@ -534,52 +541,18 @@
   summary: JavaScript package manager
   licenses:
     - 2-clause BSD License
-- repo: chromebrew
+- repo: archpower_powerpc64le
   srcname: yarn
+  binname: yarn
   visiblename: yarn
   version: 1.22.22
-  origversion: null
+  origversion: 1.22.22-2
   status: outdated
-  summary: Yarn is a new package manager for JavaScript and an alternative to npm.
-  licenses:
-    - BSD-2
-  vulnerable: true
-- repo: crux_37
-  subrepo: contrib
-  srcname: yarn
-  visiblename: yarn
-  version: 1.22.22
-  origversion: null
-  status: outdated
-  summary: a nodejs package manager
-  maintainers:
-    - tbier@posteo.de
-  vulnerable: true
-- repo: crux_38
-  subrepo: contrib
-  srcname: yarn
-  visiblename: yarn
-  version: 1.22.22
-  origversion: null
-  status: outdated
-  summary: a nodejs package manager
-  maintainers:
-    - tbier@posteo.de
-  vulnerable: true
-- repo: nix_stable_25_11
-  srcname: yarn
-  visiblename: yarn
-  version: 1.22.22
-  origversion: null
-  status: legacy
-  summary: Fast, reliable, and secure dependency management for javascript
-  maintainers:
-    - jaka@x-truder.net
-    - nix@echooff.de
+  summary: Fast, reliable, and secure dependency management
   licenses:
     - BSD-2-Clause
   vulnerable: true
-- repo: manjaro_testing
+- repo: manjaro_unstable
   subrepo: extra
   srcname: yarn
   binname: yarn
@@ -590,6 +563,19 @@
   summary: Fast, reliable, and secure dependency management
   licenses:
     - BSD-2-Clause
+  vulnerable: true
+- repo: pkgsrc_current
+  srcname: devel/yarn
+  binname: yarn
+  visiblename: devel/yarn
+  version: 1.22.22
+  origversion: null
+  status: outdated
+  summary: JavaScript package manager
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - devel
   vulnerable: true
 - repo: alpine_3_17
   subrepo: community
@@ -630,6 +616,18 @@
   summary: Fast, reliable, and secure dependency management for Node.js
   maintainers:
     - ed@reevoo.com
+  licenses:
+    - BSD-2-Clause
+  vulnerable: true
+- repo: arch
+  subrepo: extra
+  srcname: yarn
+  binname: yarn
+  visiblename: yarn
+  version: 1.22.22
+  origversion: 1.22.22-2
+  status: outdated
+  summary: Fast, reliable, and secure dependency management
   licenses:
     - BSD-2-Clause
   vulnerable: true
@@ -703,19 +701,6 @@
   licenses:
     - BSD-2-Clause
   vulnerable: true
-- repo: exherbo
-  subrepo: arbor
-  srcname: dev-node/yarn
-  visiblename: dev-node/yarn
-  version: 1.22.22
-  origversion: 1.22.22-r1
-  status: legacy
-  summary: Fast, reliable, and secure dependency management for Node.js
-  maintainers:
-    - fallback-mnt-exherbo@repology
-  categories:
-    - dev-node
-  vulnerable: true
 - repo: alpine_edge
   subrepo: community
   srcname: yarn
@@ -775,30 +760,7 @@
   categories:
     - devel
   vulnerable: true
-- repo: arch
-  subrepo: extra
-  srcname: yarn
-  binname: yarn
-  visiblename: yarn
-  version: 1.22.22
-  origversion: 1.22.22-2
-  status: outdated
-  summary: Fast, reliable, and secure dependency management
-  licenses:
-    - BSD-2-Clause
-  vulnerable: true
 - repo: archpower_powerpc
-  srcname: yarn
-  binname: yarn
-  visiblename: yarn
-  version: 1.22.22
-  origversion: 1.22.22-2
-  status: outdated
-  summary: Fast, reliable, and secure dependency management
-  licenses:
-    - BSD-2-Clause
-  vulnerable: true
-- repo: archpower_powerpc64le
   srcname: yarn
   binname: yarn
   visiblename: yarn
@@ -853,6 +815,38 @@
   status: outdated
   summary: Package manager for the npm and bower package repositories
   vulnerable: true
+- repo: chromebrew
+  srcname: yarn
+  visiblename: yarn
+  version: 1.22.22
+  origversion: null
+  status: outdated
+  summary: Yarn is a new package manager for JavaScript and an alternative to npm.
+  licenses:
+    - BSD-2
+  vulnerable: true
+- repo: crux_37
+  subrepo: contrib
+  srcname: yarn
+  visiblename: yarn
+  version: 1.22.22
+  origversion: null
+  status: outdated
+  summary: a nodejs package manager
+  maintainers:
+    - tbier@posteo.de
+  vulnerable: true
+- repo: crux_38
+  subrepo: contrib
+  srcname: yarn
+  visiblename: yarn
+  version: 1.22.22
+  origversion: null
+  status: outdated
+  summary: a nodejs package manager
+  maintainers:
+    - tbier@posteo.de
+  vulnerable: true
 - repo: debian_11
   subrepo: bullseye/main
   srcname: node-yarnpkg
@@ -867,6 +861,19 @@
     - paolo.greppi@libpf.com
   categories:
     - misc
+  vulnerable: true
+- repo: freebsd
+  srcname: www/yarn-node20
+  binname: yarn-node20
+  visiblename: www/yarn-node20
+  version: 1.22.19
+  origversion: 1.22.19_1
+  status: outdated
+  summary: Package manager for node, alternative to npm
+  maintainers:
+    - pizzamig@freebsd.org
+  categories:
+    - www
   vulnerable: true
 - repo: debian_12
   subrepo: bookworm/main
@@ -983,18 +990,18 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: openbsd
-  srcname: devel/yarn
-  binname: yarn
-  visiblename: devel/yarn
+- repo: exherbo
+  subrepo: arbor
+  srcname: dev-node/yarn
+  visiblename: dev-node/yarn
   version: 1.22.22
-  origversion: 1.22.22p0
-  status: outdated
-  summary: fast, reliable, and secure dependency management for node.js
+  origversion: 1.22.22-r1
+  status: legacy
+  summary: Fast, reliable, and secure dependency management for Node.js
   maintainers:
-    - ports@openbsd.org
+    - fallback-mnt-exherbo@repology
   categories:
-    - devel
+    - dev-node
   vulnerable: true
 - repo: fedora_39
   subrepo: release
@@ -1161,18 +1168,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: yarn
-  binname: yarn
-  visiblename: yarn
-  version: 1.22.22
-  origversion: 1.22.22-2
-  status: outdated
-  summary: Fast, reliable, and secure dependency management
-  licenses:
-    - BSD-2-Clause
-  vulnerable: true
 - repo: fedora_44
   subrepo: updates
   srcname: yarnpkg
@@ -1202,19 +1197,6 @@
     - BSD-2-Clause
   categories:
     - Unspecified
-  vulnerable: true
-- repo: freebsd
-  srcname: www/yarn-node20
-  binname: yarn-node20
-  visiblename: www/yarn-node20
-  version: 1.22.19
-  origversion: 1.22.19_1
-  status: outdated
-  summary: Package manager for node, alternative to npm
-  maintainers:
-    - pizzamig@freebsd.org
-  categories:
-    - www
   vulnerable: true
 - repo: freebsd
   srcname: www/yarn-node22
@@ -1306,6 +1288,16 @@
     - demm@kaosx.us
   licenses:
     - BSD 2-clause
+  vulnerable: true
+- repo: kiss_community
+  subrepo: community
+  srcname: yarn
+  visiblename: yarn
+  version: 1.22.22
+  origversion: null
+  status: outdated
+  maintainers:
+    - prathamin@proton.me
   vulnerable: true
 - repo: liguros_stable
   srcname: sys-apps/yarn
@@ -1402,6 +1394,20 @@
     - BSD
   categories:
     - Development/Java
+  vulnerable: true
+- repo: nix_stable_24_05
+  srcname: nodePackages_latest.yarn
+  visiblename: yarn
+  version: 1.22.22
+  origversion: null
+  status: legacy
+  summary: "\U0001F4E6\U0001F408 Fast, reliable, and secure dependency management."
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - BSD-2-Clause
+  categories:
+    - nodePackages_latest
   vulnerable: true
 - repo: mageia_9
   subrepo: core/updates
@@ -1505,6 +1511,18 @@
   licenses:
     - BSD-2-Clause
   vulnerable: true
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: yarn
+  binname: yarn
+  visiblename: yarn
+  version: 1.22.22
+  origversion: 1.22.22-2
+  status: outdated
+  summary: Fast, reliable, and secure dependency management
+  licenses:
+    - BSD-2-Clause
+  vulnerable: true
 - repo: msys2_clang64
   srcname: mingw-w64-yarn
   binname: mingw-w64-clang-x86_64-yarn
@@ -1565,20 +1583,6 @@
     - nodePackages
   vulnerable: true
 - repo: nix_stable_24_05
-  srcname: nodePackages_latest.yarn
-  visiblename: yarn
-  version: 1.22.22
-  origversion: null
-  status: legacy
-  summary: "\U0001F4E6\U0001F408 Fast, reliable, and secure dependency management."
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - BSD-2-Clause
-  categories:
-    - nodePackages_latest
-  vulnerable: true
-- repo: nix_stable_24_05
   srcname: yarn
   visiblename: yarn
   version: 1.22.22
@@ -1617,6 +1621,19 @@
   licenses:
     - BSD-2-Clause
   vulnerable: true
+- repo: nix_stable_25_11
+  srcname: yarn
+  visiblename: yarn
+  version: 1.22.22
+  origversion: null
+  status: legacy
+  summary: Fast, reliable, and secure dependency management for javascript
+  maintainers:
+    - jaka@x-truder.net
+    - nix@echooff.de
+  licenses:
+    - BSD-2-Clause
+  vulnerable: true
 - repo: nix_stable_26_05
   srcname: yarn
   visiblename: yarn
@@ -1640,6 +1657,19 @@
     - nix@echooff.de
   licenses:
     - BSD-2-Clause
+  vulnerable: true
+- repo: openbsd
+  srcname: devel/yarn
+  binname: yarn
+  visiblename: devel/yarn
+  version: 1.22.22
+  origversion: 1.22.22p0
+  status: outdated
+  summary: fast, reliable, and secure dependency management for node.js
+  maintainers:
+    - ports@openbsd.org
+  categories:
+    - devel
   vulnerable: true
 - repo: openeuler_24_03_lts
   srcname: nodejs-yarn
@@ -1842,26 +1872,6 @@
   categories:
     - devel
   vulnerable: true
-- repo: pkgsrc_current
-  srcname: devel/yarn
-  binname: yarn
-  visiblename: devel/yarn
-  version: 1.22.22
-  origversion: null
-  status: outdated
-  summary: JavaScript package manager
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - devel
-  vulnerable: true
-- repo: pld
-  srcname: yarn
-  visiblename: yarn
-  version: 1.22.22
-  origversion: 1.22.22-1
-  status: outdated
-  vulnerable: true
 - repo: pureos_amber
   subrepo: amber/main
   srcname: node-yarnpkg
@@ -1940,16 +1950,6 @@
     - BSD
   categories:
     - Development/Tools
-  vulnerable: true
-- repo: scoop
-  subrepo: main
-  binname: yarn
-  visiblename: yarn
-  version: 1.22.22
-  origversion: null
-  status: outdated
-  licenses:
-    - BSD-2-Clause
   vulnerable: true
 - repo: slackbuilds
   srcname: development/yarn
