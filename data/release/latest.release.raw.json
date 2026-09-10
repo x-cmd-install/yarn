@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1245431,
       "digest": null,
-      "download_count": 6152,
+      "download_count": 6155,
       "created_at": "2024-05-24T21:29:51Z",
       "updated_at": "2024-05-24T21:29:51Z",
       "browser_download_url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.22/yarn-1.22.22-1.noarch.rpm"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 833,
       "digest": null,
-      "download_count": 3646,
+      "download_count": 3648,
       "created_at": "2024-05-24T21:32:48Z",
       "updated_at": "2024-05-24T21:32:48Z",
       "browser_download_url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.22/yarn-1.22.22-1.noarch.rpm.asc"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 5117265,
       "digest": null,
-      "download_count": 9961423,
+      "download_count": 9968437,
       "created_at": "2024-03-09T21:44:17Z",
       "updated_at": "2024-03-09T21:44:18Z",
       "browser_download_url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.22/yarn-1.22.22.js"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 833,
       "digest": null,
-      "download_count": 3588,
+      "download_count": 3590,
       "created_at": "2024-05-24T21:33:54Z",
       "updated_at": "2024-05-24T21:33:54Z",
       "browser_download_url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.22/yarn-1.22.22.js.asc"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 1671168,
       "digest": null,
-      "download_count": 528319,
+      "download_count": 528548,
       "created_at": "2024-05-24T21:50:04Z",
       "updated_at": "2024-05-24T21:50:06Z",
       "browser_download_url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.22/yarn-1.22.22.msi"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 833,
       "digest": null,
-      "download_count": 3537,
+      "download_count": 3539,
       "created_at": "2024-05-24T21:51:03Z",
       "updated_at": "2024-05-24T21:51:03Z",
       "browser_download_url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.22/yarn-1.22.22.msi.asc"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 833,
       "digest": null,
-      "download_count": 3537,
+      "download_count": 3539,
       "created_at": "2024-05-24T21:33:54Z",
       "updated_at": "2024-05-24T21:33:54Z",
       "browser_download_url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.22/yarn-legacy-1.22.22.js.asc"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 1247457,
       "digest": null,
-      "download_count": 21480615,
+      "download_count": 21490583,
       "created_at": "2024-03-09T21:44:19Z",
       "updated_at": "2024-03-09T21:44:19Z",
       "browser_download_url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.22/yarn-v1.22.22.tar.gz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 847,
       "digest": null,
-      "download_count": 4711408,
+      "download_count": 4713028,
       "created_at": "2024-05-24T21:19:55Z",
       "updated_at": "2024-05-24T21:19:56Z",
       "browser_download_url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.22/yarn-v1.22.22.tar.gz.asc"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 896308,
       "digest": null,
-      "download_count": 12982,
+      "download_count": 12993,
       "created_at": "2024-05-24T21:29:50Z",
       "updated_at": "2024-05-24T21:29:51Z",
       "browser_download_url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.22/yarn_1.22.22_all.deb"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 833,
       "digest": null,
-      "download_count": 3284,
+      "download_count": 3286,
       "created_at": "2024-05-24T21:32:47Z",
       "updated_at": "2024-05-24T21:32:47Z",
       "browser_download_url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.22/yarn_1.22.22_all.deb.asc"
