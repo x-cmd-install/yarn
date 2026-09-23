@@ -4,7 +4,7 @@
 
 The 1.x line is frozen - features and bugfixes now happen on https://github.com/yarnpkg/berry
 
-[![x-cmd/install — yarn Code Quality Monitoring Repo Card](https://repo.x-cmd.io/yarn.svg?lang=zh)](https://x-cmd.com/install/yarn)
+[![x-cmd/install — yarn Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/yarn.svg?lang=zh)](https://x-cmd.com/install/yarn)
 
 ## 安装
 
@@ -30,8 +30,8 @@ x install yarn
 
 评分最低的几项:
 
-- **Code-Review** (1/10) — Found 4/30 approved changesets -- score normalized to 1
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (1/10) — Found 4/30 approved changesets -- score normalized to 1
 - **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
 
 ## 源代码
@@ -48,7 +48,7 @@ x install yarn
 
 ## 流行度
 
-- **Star**: 41,475 · **Fork**: 2,710 · **开放 issue**: 6,624 · **贡献者**: 520
+- **Star**: 41,478 · **Fork**: 2,710 · **开放 issue**: 6,624 · **贡献者**: 520
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install yarn
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-24 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-24 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-26 | 0 | 0 | 0 | 1 | 1 | 0 |
-| 360d | 2025-09-27 | 0 | 1 | 2 | 14 | 2 | 1 |
-| last720d | 2024-10-02 | 0 | 1 | 51 | 22 | 16 | 1 |
+| 30d | 2026-08-24 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-25 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-25 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-27 | 0 | 0 | 0 | 1 | 1 | 0 |
+| 360d | 2025-09-28 | 0 | 1 | 2 | 14 | 2 | 1 |
+| last720d | 2024-10-03 | 0 | 1 | 51 | 22 | 16 | 1 |
 
 ## Release 资产
 
@@ -91,4 +91,4 @@ yarn 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T05:31:47Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T05:35:34Z._
