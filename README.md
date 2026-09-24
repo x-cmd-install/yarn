@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 41,478 · **Forks**: 2,710 · **Open issues**: 6,624 · **Contributors**: 520
+- **Stars**: 41,478 · **Forks**: 2,709 · **Open issues**: 6,624 · **Contributors**: 520
 
 ## Totals (cumulative)
 
-- **Releases**: 153 · **Merged PRs**: 1655 · **Open PRs**: 187 · **Closed issues**: 4755 · **Open issues**: 1869 · **Commits**: 2358
+- **Releases**: 153 · **Merged PRs**: 1655 · **Open PRs**: 186 · **Closed issues**: 4755 · **Open issues**: 1869 · **Commits**: 2358
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-24 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-27 | 0 | 0 | 0 | 1 | 1 | 0 |
-| 360d | 2025-09-28 | 0 | 1 | 2 | 14 | 2 | 1 |
-| last720d | 2024-10-03 | 0 | 1 | 51 | 22 | 16 | 1 |
+| 30d | 2026-08-25 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-28 | 0 | 0 | 0 | 1 | 1 | 0 |
+| 360d | 2025-09-29 | 0 | 1 | 2 | 14 | 2 | 1 |
+| last720d | 2024-10-04 | 0 | 1 | 51 | 22 | 16 | 1 |
 
 ## Release assets
 
@@ -91,4 +91,4 @@ Install metadata for yarn lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260923.yml` · 2026-09-23T05:35:33Z._
+_Snapshot: `data/card/260924.yml` · 2026-09-24T05:20:06Z._
