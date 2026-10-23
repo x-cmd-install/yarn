@@ -48,7 +48,7 @@ x install yarn
 
 ## 流行度
 
-- **Star**: 41,469 · **Fork**: 2,701 · **开放 issue**: 6,624 · **贡献者**: 520
+- **Star**: 41,470 · **Fork**: 2,701 · **开放 issue**: 6,624 · **贡献者**: 520
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install yarn
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-23 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-24 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-25 | 0 | 0 | 0 | 0 | 1 | 0 |
-| 360d | 2025-10-27 | 0 | 1 | 2 | 14 | 1 | 1 |
-| last720d | 2024-11-01 | 0 | 1 | 51 | 20 | 15 | 1 |
+| 30d | 2026-09-23 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-24 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-25 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-26 | 0 | 0 | 0 | 0 | 1 | 0 |
+| 360d | 2025-10-28 | 0 | 1 | 2 | 14 | 1 | 1 |
+| last720d | 2024-11-02 | 0 | 1 | 51 | 20 | 15 | 1 |
 
 ## Release 资产
 
@@ -82,6 +82,24 @@ x install yarn
 | [yarn_1.22.22_all.deb](https://github.com/yarnpkg/yarn/releases/download/v1.22.22/yarn_1.22.22_all.deb) | 875.3 KiB | `other` |
 | [yarn_1.22.22_all.deb.asc](https://github.com/yarnpkg/yarn/releases/download/v1.22.22/yarn_1.22.22_all.deb.asc) | 833 B | `other` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/yarn) 上共有 **146** 个发行版报告此项目。**6** 个 ✅ 已是最新上游版本，**120** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `4.1.0` | ⚠️ outdated |
+| Debian 14 | `4.1.0` | ⚠️ outdated |
+| Debian 13 | `4.1.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `4.1.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.22.19+~cs24.27.18` | ⚠️ outdated |
+| Arch | `1.22.22` | ⚠️ outdated |
+| Homebrew | `1.22.22` | ⚠️ outdated |
+| Nix unstable | `4.18.1` | ✅ latest |
+| Void | `1.22.22` | ⚠️ outdated |
+| Alpine edge | `4.12.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.22.22` | ⚠️ outdated |
+
 ## 改进这些数据
 
 yarn 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `yarn` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -91,4 +109,4 @@ yarn 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T05:11:44Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T05:11:53Z._
