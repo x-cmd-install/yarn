@@ -1,15 +1,15 @@
-- repo: aur
-  srcname: yarn-berry
-  binname: yarn-berry
-  visiblename: yarn-berry
-  version: 4.18.0
-  origversion: 4.18.0-1
-  status: outdated
-  summary: Fast, reliable, and secure dependency management - Active development trunk
+- repo: aosc
+  srcname: lang-js/yarn
+  binname: yarn
+  visiblename: yarn
+  version: 4.18.1
+  origversion: null
+  status: newest
+  summary: Pluggable Node.js package manager
   maintainers:
-    - username227@aur
-  licenses:
-    - BSD
+    - fallback-mnt-aosc@repology
+  categories:
+    - devel
 - repo: alpine_edge
   subrepo: testing
   srcname: yarn-berry
@@ -49,21 +49,18 @@
     - pkg-javascript-devel@lists.alioth.debian.org
     - izzygaladima@gmail.com
     - paolo.greppi@libpf.com
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: node-yarnpkg
-  binnames:
-    - yarnpkg
-  visiblename: node-yarnpkg
-  version: 4.1.0
-  origversion: 4.1.0+dfsg-9
+- repo: aur
+  srcname: yarn-berry
+  binname: yarn-berry
+  visiblename: yarn-berry
+  version: 4.18.0
+  origversion: 4.18.0-1
   status: outdated
+  summary: Fast, reliable, and secure dependency management - Active development trunk
   maintainers:
-    - pkg-javascript-devel@lists.alioth.debian.org
-    - izzygaladima@gmail.com
-    - paolo.greppi@libpf.com
-  categories:
-    - misc
+    - username227@aur
+  licenses:
+    - BSD
 - repo: debian_13
   subrepo: trixie/main
   srcname: node-yarnpkg
@@ -109,6 +106,21 @@
     - paolo.greppi@libpf.com
   categories:
     - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: node-yarnpkg
+  binnames:
+    - yarnpkg
+  visiblename: node-yarnpkg
+  version: 4.1.0
+  origversion: 4.1.0+dfsg-9
+  status: outdated
+  maintainers:
+    - pkg-javascript-devel@lists.alioth.debian.org
+    - izzygaladima@gmail.com
+    - paolo.greppi@libpf.com
+  categories:
+    - misc
 - repo: exherbo
   subrepo: arbor
   srcname: dev-node/yarn
@@ -136,16 +148,6 @@
     - paolo.greppi@libpf.com
   categories:
     - misc
-- repo: kiss_community
-  subrepo: community
-  srcname: yarn
-  visiblename: yarn
-  version: 1.22.22
-  origversion: null
-  status: outdated
-  maintainers:
-    - prathamin@proton.me
-  vulnerable: true
 - repo: nix_stable_24_05
   srcname: yarn-berry
   visiblename: yarn-berry
@@ -159,6 +161,21 @@
     - dimitarnestorov@github
   licenses:
     - BSD-2-Clause
+- repo: raspbian_stable
+  subrepo: main
+  srcname: node-yarnpkg
+  binnames:
+    - yarnpkg
+  visiblename: node-yarnpkg
+  version: 4.1.0
+  origversion: 4.1.0+dfsg-1
+  status: outdated
+  maintainers:
+    - pkg-javascript-devel@lists.alioth.debian.org
+    - izzygaladima@gmail.com
+    - paolo.greppi@libpf.com
+  categories:
+    - misc
 - repo: nix_stable_24_11
   srcname: yarn-berry
   visiblename: yarn-berry
@@ -276,6 +293,21 @@
     - nix@dimitarnestorov.com
   licenses:
     - BSD-2-Clause
+- repo: raspbian_testing
+  subrepo: main
+  srcname: node-yarnpkg
+  binnames:
+    - yarnpkg
+  visiblename: node-yarnpkg
+  version: 4.1.0
+  origversion: 4.1.0+dfsg-9
+  status: outdated
+  maintainers:
+    - pkg-javascript-devel@lists.alioth.debian.org
+    - izzygaladima@gmail.com
+    - paolo.greppi@libpf.com
+  categories:
+    - misc
 - repo: nix_stable_26_05
   srcname: yarn-berry_3
   visiblename: yarn-berry
@@ -389,43 +421,6 @@
     - paolo.greppi@libpf.com
   categories:
     - javascript
-- repo: raspbian_stable
-  subrepo: main
-  srcname: node-yarnpkg
-  binnames:
-    - yarnpkg
-  visiblename: node-yarnpkg
-  version: 4.1.0
-  origversion: 4.1.0+dfsg-1
-  status: outdated
-  maintainers:
-    - pkg-javascript-devel@lists.alioth.debian.org
-    - izzygaladima@gmail.com
-    - paolo.greppi@libpf.com
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: node-yarnpkg
-  binnames:
-    - yarnpkg
-  visiblename: node-yarnpkg
-  version: 4.1.0
-  origversion: 4.1.0+dfsg-9
-  status: outdated
-  maintainers:
-    - pkg-javascript-devel@lists.alioth.debian.org
-    - izzygaladima@gmail.com
-    - paolo.greppi@libpf.com
-  categories:
-    - misc
-- repo: pld
-  srcname: yarn
-  visiblename: yarn
-  version: 1.22.22
-  origversion: 1.22.22-1
-  status: outdated
-  vulnerable: true
 - repo: spack
   srcname: yarn
   visiblename: yarn
@@ -546,16 +541,6 @@
   summary: Fast, reliable, and secure dependency management - Active development trunk
   maintainers:
     - wonkru-dev@proton.me
-- repo: scoop
-  subrepo: main
-  binname: yarn
-  visiblename: yarn
-  version: 1.22.22
-  origversion: null
-  status: outdated
-  licenses:
-    - BSD-2-Clause
-  vulnerable: true
 - repo: wikidata
   srcname: Q28518314
   visiblename: Yarn
@@ -565,48 +550,6 @@
   summary: JavaScript package manager
   licenses:
     - 2-clause BSD License
-- repo: chimera
-  subrepo: main
-  srcname: yarn
-  binname: yarn
-  visiblename: yarn
-  version: 1.22.22
-  origversion: 1.22.22-r0
-  status: outdated
-  summary: Package manager for Node
-  licenses:
-    - BSD-2-Clause
-  vulnerable: true
-- repo: deepin_25
-  subrepo: main
-  srcname: node-yarnpkg
-  binnames:
-    - yarnpkg
-  visiblename: node-yarnpkg
-  version: 1.22.19+~cs24.27.18
-  origversion: 1.22.19+~cs24.27.18-4
-  status: outdated
-  maintainers:
-    - pkg-javascript-devel@lists.alioth.debian.org
-    - paolo.greppi@libpf.com
-  categories:
-    - javascript
-  vulnerable: true
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: node-yarnpkg
-  binnames:
-    - yarnpkg
-  visiblename: node-yarnpkg
-  version: 1.22.10+~cs22.25.14
-  origversion: 1.22.10+~cs22.25.14-3
-  status: outdated
-  maintainers:
-    - pkg-javascript-devel@lists.alioth.debian.org
-    - paolo.greppi@libpf.com
-  categories:
-    - misc
-  vulnerable: true
 - repo: alpine_3_17
   subrepo: community
   srcname: yarn
@@ -719,18 +662,6 @@
   licenses:
     - BSD-2-Clause
   vulnerable: true
-- repo: epel_8
-  srcname: yarnpkg
-  visiblename: yarnpkg
-  version: 1.22.22
-  origversion: 1.22.22-9.el8
-  status: outdated
-  summary: Fast, reliable, and secure dependency management.
-  licenses:
-    - BSD-2-Clause
-  categories:
-    - Unspecified
-  vulnerable: true
 - repo: alpine_edge
   subrepo: community
   srcname: yarn
@@ -777,18 +708,15 @@
   categories:
     - Development/Tools
   vulnerable: true
-- repo: aosc
-  srcname: lang-js/yarn
-  binname: yarn
+- repo: kiss_community
+  subrepo: community
+  srcname: yarn
   visiblename: yarn
-  version: "0"
-  origversion: 1:0
+  version: 1.22.22
+  origversion: null
   status: outdated
-  summary: Transitional package for yarn
   maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - devel
+    - prathamin@proton.me
   vulnerable: true
 - repo: arch
   subrepo: extra
@@ -811,6 +739,18 @@
   origversion: 1.22.22-2
   status: outdated
   summary: Fast, reliable, and secure dependency management
+  licenses:
+    - BSD-2-Clause
+  vulnerable: true
+- repo: chimera
+  subrepo: main
+  srcname: yarn
+  binname: yarn
+  visiblename: yarn
+  version: 1.22.22
+  origversion: 1.22.22-r0
+  status: outdated
+  summary: Package manager for Node
   licenses:
     - BSD-2-Clause
   vulnerable: true
@@ -926,6 +866,48 @@
   categories:
     - javascript
   vulnerable: true
+- repo: deepin_25
+  subrepo: main
+  srcname: node-yarnpkg
+  binnames:
+    - yarnpkg
+  visiblename: node-yarnpkg
+  version: 1.22.19+~cs24.27.18
+  origversion: 1.22.19+~cs24.27.18-4
+  status: outdated
+  maintainers:
+    - pkg-javascript-devel@lists.alioth.debian.org
+    - paolo.greppi@libpf.com
+  categories:
+    - javascript
+  vulnerable: true
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: node-yarnpkg
+  binnames:
+    - yarnpkg
+  visiblename: node-yarnpkg
+  version: 1.22.10+~cs22.25.14
+  origversion: 1.22.10+~cs22.25.14-3
+  status: outdated
+  maintainers:
+    - pkg-javascript-devel@lists.alioth.debian.org
+    - paolo.greppi@libpf.com
+  categories:
+    - misc
+  vulnerable: true
+- repo: epel_8
+  srcname: yarnpkg
+  visiblename: yarnpkg
+  version: 1.22.22
+  origversion: 1.22.22-9.el8
+  status: outdated
+  summary: Fast, reliable, and secure dependency management.
+  licenses:
+    - BSD-2-Clause
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: epel_9
   srcname: yarnpkg
   binnames:
@@ -939,6 +921,16 @@
     - BSD-2-Clause
   categories:
     - Unspecified
+  vulnerable: true
+- repo: scoop
+  subrepo: main
+  binname: yarn
+  visiblename: yarn
+  version: 1.22.22
+  origversion: null
+  status: outdated
+  licenses:
+    - BSD-2-Clause
   vulnerable: true
 - repo: epel_10
   srcname: yarnpkg
@@ -1597,17 +1589,6 @@
   licenses:
     - BSD-2-Clause
   vulnerable: true
-- repo: slackbuilds
-  srcname: development/yarn
-  visiblename: development/yarn
-  version: 1.22.22
-  origversion: null
-  status: outdated
-  maintainers:
-    - willysr@slackbuilds.org
-  categories:
-    - development
-  vulnerable: true
 - repo: openbsd
   srcname: devel/yarn
   binname: yarn
@@ -1634,6 +1615,17 @@
     - BSD-2-Clause
   categories:
     - Unspecified
+  vulnerable: true
+- repo: slackbuilds
+  srcname: development/yarn
+  visiblename: development/yarn
+  version: 1.22.22
+  origversion: null
+  status: outdated
+  maintainers:
+    - willysr@slackbuilds.org
+  categories:
+    - development
   vulnerable: true
 - repo: openeuler_24_03_lts_sp1
   srcname: nodejs-yarn
@@ -1834,6 +1826,13 @@
     - pkgsrc-users@netbsd.org
   categories:
     - devel
+  vulnerable: true
+- repo: pld
+  srcname: yarn
+  visiblename: yarn
+  version: 1.22.22
+  origversion: 1.22.22-1
+  status: outdated
   vulnerable: true
 - repo: pureos_amber
   subrepo: amber/main
